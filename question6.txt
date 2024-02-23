@@ -1,0 +1,27 @@
+String interpolation and concatenation are both methods used to combine strings in programming.
+
+1.String Interpolation:
+   String interpolation is a method of constructing a new string that includes the 
+   values of variables within the string itself. In many programming languages, this 
+   is achieved by embedding variables or expressions within a string literal using special 
+   syntax. The language evaluates these expressions and inserts their values into the resulting string.
+
+   Example 
+   const name = "mayur";
+   const age = 16;
+   const greeting = `Hello, my name is ${name} and I am ${age} years old.`;
+   console.log(greeting);   
+
+2.String Concatenation :
+   String concatenation is a method of combining strings by appending one string to the end of another.
+   This can be achieved using operators like `+` in many programming languages.
+
+   Example 
+   const firstName = "Mayur";
+   const lastName = "Naik";
+   const fullName = firstName + " " + lastName;
+   console.log(fullName);   
+
+   string interpolation allows for embedding expressions directly within a string using placeholders
+while string concatenation involves joining strings together using operators or functions.
+Both methods serve the purpose of creating composite strings from multiple substrings or variables.
